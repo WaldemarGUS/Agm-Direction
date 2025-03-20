@@ -1,6 +1,6 @@
 {
   "name": "@waldemar.asmus/agm-direction",
-  "version": "0.8.10",
+  "version": "0.8.11",
   "description": "directive for agm (not official)",
   "main": "./bundles/agm-direction.umd.js",
   "module": "./fesm5/agm-direction.js",
