@@ -1,0 +1,29 @@
+<div class="map-container">
+  <h1>AGM-Direction Sample</h1>
+  
+  <agm-map [latitude]="lat" [longitude]="lng" [zoom]="11" [disableDefaultUI]="false">
+    <agm-direction
+      [origin]="origin"
+      [destination]="destination"
+      [waypoints]="waypoints"
+      [travelMode]="'DRIVING'"
+      [optimizeWaypoints]="true"
+      [renderOptions]="renderOptions"
+      [markerOptions]="markerOptions"
+      (onChange)="directionChange($event)"
+    >
+    </agm-direction>
+  </agm-map>
+  
+  <div class="controls">
+    <p>This example shows a route from the Empire State Building to the Statue of Liberty, passing through Times Square.</p>
+    <p>Key features demonstrated:</p>
+    <ul>
+      <li>Custom markers with different icons</li>
+      <li>Draggable origin and destination markers</li>
+      <li>Waypoint support</li>
+      <li>Route optimization</li>
+      <li>Custom route styling</li>
+    </ul>
+  </div>
+</div>
