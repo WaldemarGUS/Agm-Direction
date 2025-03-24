@@ -3,6 +3,8 @@ $ cat .gitignore
 /dist
 /documentation
 /coverage
+/.angular
+
 
 # Log Files
 *.log

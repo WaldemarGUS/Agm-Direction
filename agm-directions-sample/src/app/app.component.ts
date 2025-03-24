@@ -22,6 +22,9 @@ export class AppComponent {
     }
   ];
 
+  // Define travel mode as a string
+  public travelMode: google.maps.TravelMode = 'DRIVING' as google.maps.TravelMode;
+
   // Optional: Customize the renderer options
   public renderOptions: google.maps.DirectionsRendererOptions = {
     suppressMarkers: true,
